@@ -1,10 +1,26 @@
 import React from 'react';
 
-const Work = () => (
+const Portfolio = () => (
     <section id="my-work" className="work">
-        <div className="flex-row">
+        <div className="card">
+            <img src="" alt="Fitness Pal preview" style=" width:100%"></img>
+            <div className="container">
+                <h4><b>Fitness Pal</b></h4>
+                <p>HTML/CSS/Bootstrap</p>
+            </div>
+        </div>
+
+        <div className="card">
+            <img src="" alt="" style="width: 100%"></img>
+            <div className="container">
+                <h4><b>Find The Vibe</b></h4>
+                <p>HTML/CSS/Foundation/Javascript</p>
+            </div>
+        </div>
+
+        {/* <div className="flex-row">
             <h2 className="section-title">
-                Work
+                My Portfolio
         </h2>
         </div>
 
@@ -41,11 +57,11 @@ const Work = () => (
                     Placeholder Title
                     </div>
             </a>
-        </div>
+        </div> */}
 
     </section>
 
 )
 
 
-export default Work;
+export default Portfolio;

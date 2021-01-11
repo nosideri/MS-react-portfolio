@@ -37,6 +37,7 @@ header a {
     margin-right: 10%;
     padding-right: 10%;
     font-size: 1.3rem;
+    display: flex;
 }
 
 .nav-item:hover {
@@ -258,6 +259,24 @@ header nav ul li {
     -moz-transition: opacity .5s ease-out;
     -webkit-transition: opacity .5s ease-out;
     -o-transition: opacity .5s ease-out;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(#90E0EF);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(black);
+}
+
+.container {
+    padding: 2px 16px;
 }
 
 .work-grid-5:hover {

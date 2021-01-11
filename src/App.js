@@ -3,11 +3,11 @@ import './App.css';
 import Home from './pages/home';
 import Navbar from './components/Navbar'
 import About from './pages/about.js'
-import Work from './pages/work.js';
+import Portfolio from './pages/work.js';
 import Contact from './pages/contact.js';
 import Resume from './pages/resume.js';
 
-function Portfolio() {
+function MyPortfolio() {
   const [currentPage, handlePageChange] = useState('Home');
 
   const renderPage = () => {
@@ -16,8 +16,8 @@ function Portfolio() {
         return <Home />;
       case 'About Me':
         return <About />;
-      case 'My Work':
-        return <Work />;
+      case 'Portfolio':
+        return <Portfolio />;
       case 'Contact Me':
         return <Contact />;
       case 'My Resume':
@@ -35,4 +35,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default MyPortfolio;
