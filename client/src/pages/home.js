@@ -1,23 +1,14 @@
 import React from 'react';
 
-function Home() {
-    return (
-        <>
-         
+const Home = () => (
+    <>
 
-            <section className="hero">
-                <div className="hero-cta">
-                    <h2>"Madison's Portfolio"</h2>
-                </div>
-            </section>
+        <section className="hero">
+            <div className="hero-cta">
+            </div>
+        </section>
 
-            
-
-            
-        </>
-    )
-}
-
-
+    </>
+)
 
 export default Home;

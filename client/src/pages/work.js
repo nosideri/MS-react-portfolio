@@ -1,9 +1,7 @@
 import React from 'react';
 
-function Work() {
-    return(
-        
-        <section  id="my-work" className="work">
+const Work = () => (
+    <section id="my-work" className="work">
         <div className="flex-row">
             <h2 className="section-title">
                 Work
@@ -47,7 +45,7 @@ function Work() {
 
     </section>
 
-    )
-}
+)
+
 
 export default Work;
