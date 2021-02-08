@@ -3,7 +3,7 @@ import React from 'react';
 const Portfolio = () => (
     <section id="my-work" className="work">
         <div className="card">
-            <img src="" alt="Fitness Pal preview" style=" width:100%"></img>
+            <img src="../images/fitness-pal.png" alt="Fitness Pal preview" style=""></img>
             <div className="container">
                 <h4><b>Fitness Pal</b></h4>
                 <p>HTML/CSS/Bootstrap</p>
@@ -11,10 +11,18 @@ const Portfolio = () => (
         </div>
 
         <div className="card">
-            <img src="" alt="" style="width: 100%"></img>
+            <img src="../images/FINDTHEVIBE.png" alt="Find The Vibe preview" style=""></img>
             <div className="container">
                 <h4><b>Find The Vibe</b></h4>
                 <p>HTML/CSS/Foundation/Javascript</p>
+            </div>
+        </div>
+
+        <div className="card">
+            <img src="../images/KETOGETHER.png" alt="KETOgether preview" style=""></img>
+            <div className="container">
+                <h4><b>KETOgether</b></h4>
+                <p>CSS/React/Semantic UI</p>
             </div>
         </div>
 
